@@ -1,0 +1,11 @@
+name: WolfTestPlugin
+version: '1.0-SNAPSHOT'
+main: mc.dwms.tk.wolftestplugin.WolfTestPlugin
+api-version: 1.19
+prefix: wolfTestPlugin
+authors: [ Wolflang ]
+description: A Test Plugin.
+commands:
+  web:
+    usage: /web
+    description: 取得教學文鏈接
