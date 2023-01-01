@@ -9,6 +9,7 @@ public final class WolfTestPlugin extends JavaPlugin {
         // Plugin startup logic
         getLogger().info("插件啟動成功!!");
         getCommand("web").setExecutor(new WebCommand());
+        getCommand("ignite").setExecutor(new Boolean());
     }
 
     @Override

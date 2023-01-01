@@ -8,4 +8,7 @@ description: A Test Plugin.
 commands:
   web:
     usage: /web
-    description: 取得教學文鏈接
+    description: DWMS 官方網站
+  ignite:
+    usage: /ignite
+    description: 使玩家著火
